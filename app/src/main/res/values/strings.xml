@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sirmaur</string>
+    <string name="title_activity_home_avitvity">HomeAvitvity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sirmaur</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="about_nahan"> About the origin of the name, “Sirmaur” there are quite a few surmises.  One view being that the state derived its name as Sirmaur because of the   senior position it held amongst the princely hill states.</string>
+
+
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="How to Reach" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Where to Stay" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Important Contacts" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Excursions" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Gallery" />
+
+    <item
+        android:id="@+id/nav_send1"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Public Grievance" />
+    <item
+        android:id="@+id/nav_send2"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Important Links" />
+
+    <item
+        android:id="@+id/nav_send3"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Messages from DC,Sirmaur" />
+
+    <item
+    android:id="@+id/nav_send4"
+    android:icon="@drawable/ic_menu_send"
+    android:title="Admin Login" />
+
+
+
+</menu>
