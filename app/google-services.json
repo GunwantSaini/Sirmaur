@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "554844714429",
+    "firebase_url": "https://sirmaur2.firebaseio.com",
+    "project_id": "sirmaur2",
+    "storage_bucket": "sirmaur2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554844714429:android:a576c7cced315d6d",
+        "android_client_info": {
+          "package_name": "gtconline.test.sirmaur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554844714429-uj2l3ha8ukl5ihsnvthunmoeglhiolma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gtconline.test.sirmaur",
+            "certificate_hash": "22b539f478b361c3322d288bcbbed4bc37cdf03b"
+          }
+        },
+        {
+          "client_id": "554844714429-nu9lars1t5mle9vc3hdn4q8placpe47e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRuJ6DC7Xx8U0Zx5bhYBl74ZY-Yau_t3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554844714429-nu9lars1t5mle9vc3hdn4q8placpe47e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

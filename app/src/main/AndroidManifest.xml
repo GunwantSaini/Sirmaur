@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".MainActivity"
+            android:name=".Ui.Activity.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,10 +21,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HomeAvitvity"
+            android:name=".Ui.Activity.HomeAvitvity"
             android:label="@string/title_activity_home_avitvity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".AboutAcitvity"></activity>
+        <activity android:name=".Ui.Activity.AboutAcitvity" />
+        <activity android:name=".Ui.Activity.ImportantLinks" />
+        <activity android:name=".Ui.Activity.HowToReachActivity" />
+        <activity android:name=".WhereToStay" />
+        <activity android:name=".Ui.Activity.ImpContacts" />
+        <activity android:name=".Ui.Activity.AdminLogin" />
+        <activity android:name=".Ui.Activity.GalleryActivity" />
+        <activity android:name=".Ui.Activity.Excursions" />
+        <activity android:name=".Ui.Activity.PlaceDetails" />
+        <activity android:name=".Ui.Activity.PublicGrievance" />
+        <activity android:name=".Ui.Activity.WhereToStayPlaceList"></activity>
     </application>
 
 </manifest>

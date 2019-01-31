@@ -3,47 +3,32 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".Ui.Activity.HomeAvitvity"
-    tools:showIn="@layout/app_bar_home_avitvity">
+    android:orientation="vertical"
+    tools:context=".Ui.Activity.PlaceDetails">
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="3">
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
 
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/aboutImage"
-        />
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:text="@string/about_nahan"
-
-            android:gravity="center"/>
-
-    </RelativeLayout>
-    <TextView
-        android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:gravity="center"
-        android:layout_weight="1"
-        android:text="These are some glimpses of Nahan"
-        />
+        android:layout_weight="4"
+        android:id="@+id/placeImage"/>
 
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
-        android:id="@+id/horizontal_imagesScroll">
+        android:id="@+id/placeImagesScrollView">
 
         <LinearLayout
             android:layout_width="100dp"
@@ -54,5 +39,17 @@
         </LinearLayout>
 
     </HorizontalScrollView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+
+        android:layout_margin="16dp"
+        android:id="@+id/descriptionTv"/>
+    </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

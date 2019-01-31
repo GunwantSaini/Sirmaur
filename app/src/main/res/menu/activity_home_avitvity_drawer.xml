@@ -5,47 +5,47 @@
 
 
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_about"
             android:icon="@drawable/ic_menu_camera"
             android:title="About" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_howToReach"
             android:icon="@drawable/ic_menu_gallery"
             android:title="How to Reach" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_whereToStay"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Where to Stay" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_impContacts"
             android:icon="@drawable/ic_menu_manage"
             android:title="Important Contacts" />
 
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_excursions"
                 android:icon="@drawable/ic_menu_share"
                 android:title="Excursions" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_gallery"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Gallery" />
 
     <item
-        android:id="@+id/nav_send1"
+        android:id="@+id/nav_publicGrievance"
         android:icon="@drawable/ic_menu_send"
         android:title="Public Grievance" />
     <item
-        android:id="@+id/nav_send2"
+        android:id="@+id/nav_impLinks"
         android:icon="@drawable/ic_menu_send"
         android:title="Important Links" />
 
     <item
-        android:id="@+id/nav_send3"
+        android:id="@+id/nav_messages"
         android:icon="@drawable/ic_menu_send"
         android:title="Messages from DC,Sirmaur" />
 
     <item
-    android:id="@+id/nav_send4"
+    android:id="@+id/nav_admin"
     android:icon="@drawable/ic_menu_send"
     android:title="Admin Login" />
 

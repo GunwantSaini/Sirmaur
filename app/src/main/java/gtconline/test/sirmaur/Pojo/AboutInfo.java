@@ -1,9 +1,16 @@
-package gtconline.test.sirmaur;
+package gtconline.test.sirmaur.Pojo;
 
 public class AboutInfo {
 
   String title;
   String description;
+
+
+  public AboutInfo(String title,String description)
+  {
+      this.title=title;
+      this.description=description;
+  }
 
 
     public String getTitle() {
